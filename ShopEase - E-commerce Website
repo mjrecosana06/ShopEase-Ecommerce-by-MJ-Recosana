@@ -1,0 +1,27 @@
+ShopEase - E-commerce Website
+Welcome to ShopEase, a simple and functional e-commerce platform built with HTML, CSS, PHP, and MySQL.
+
+Developed by: MJ Recosana
+
+📦 About the Project
+ShopEase is a straightforward online shopping platform that allows users to browse products, register accounts, add items to their cart, and place orders. This project is designed for educational purposes and demonstrates a full-stack web development setup with a database-driven backend.
+
+🛠️ Built With
+Frontend: HTML, CSS
+
+Backend: PHP
+
+Database: MySQL
+
+✨ Features
+User Registration and Login
+
+Product Listing and Details Page
+
+Add to Cart Functionality
+
+Checkout and Order Summary
+
+Admin Panel to Manage Products
+
+Responsive Design (Mobile-Friendly)
