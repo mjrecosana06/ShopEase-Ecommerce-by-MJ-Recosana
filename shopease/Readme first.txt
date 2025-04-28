@@ -1,0 +1,1 @@
+Sa Databases, import mo lang yung shop_db.sql sa phpMyAdmin na page sa XAMPP gawin mo muna sa databases katabi ng sql na tab tapos create database tapos katabi ng export import settings click mo import locate mo yung shop_db.sql tapos Ayun na.
