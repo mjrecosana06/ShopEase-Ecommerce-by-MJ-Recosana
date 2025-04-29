@@ -4,7 +4,9 @@ Welcome to ShopEase, a simple and functional e-commerce platform built with HTML
 Developed by: MJ Recosana
 
 📦 About the Project
-ShopEase is a straightforward online shopping platform that allows users to browse products, register accounts, add items to their cart, and place orders. This project is designed for educational purposes and demonstrates a full-stack web development setup with a database-driven backend.
+ShopEase is a straightforward online shopping platform that allows users to browse products, 
+register accounts, add items to their cart, and place orders. 
+This project is designed for educational purposes and demonstrates a full-stack web development setup with a database-driven backend.
 
 🛠️ Built With
 Frontend: HTML, CSS
