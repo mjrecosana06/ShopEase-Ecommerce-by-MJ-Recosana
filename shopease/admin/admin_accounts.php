@@ -55,7 +55,7 @@ if(isset($_GET['delete'])){
    ?>
    <div class="box">
       <p> Admin Id : <span><?= $fetch_accounts['id']; ?></span> </p>
-      <p> Admin Name : <span><?= $fetch_accounts['name']; ?></span> </p>
+      <p> Admin name : <span><?= $fetch_accounts['name']; ?></span> </p>
       <div class="flex-btn">
          <a href="admin_accounts.php?delete=<?= $fetch_accounts['id']; ?>" onclick="return confirm('delete this account?')" class="delete-btn">delete</a>
          <?php
