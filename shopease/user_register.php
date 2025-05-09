@@ -26,14 +26,14 @@ if(isset($_POST['submit'])){
    $row = $select_user->fetch(PDO::FETCH_ASSOC);
 
    if($select_user->rowCount() > 0){
-      $message[] = 'Email already exists!';
+      $message[] = 'email already exists!';
    }else{
       if($pass != $cpass){
-         $message[] = 'Confirm password not matched!';
+         $message[] = 'confirm password not matched!';
       }else{
          $insert_user = $conn->prepare("INSERT INTO `users`(name, email, password) VALUES(?,?,?)");
          $insert_user->execute([$name, $email, $cpass]);
-         $message[] = 'Registered successfully, Please login your account now!';
+         $message[] = 'registered successfully, login now please!';
       }
    }
 
@@ -64,11 +64,11 @@ if(isset($_POST['submit'])){
 
    <form action="" method="post">
       <h3>Register Now.</h3>
-      <input type="text" name="name" required placeholder="Enter your username" maxlength="20"  class="box">
-      <input type="email" name="email" required placeholder="Enter your email" maxlength="50"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="password" name="pass" required placeholder="Enter your password" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="password" name="cpass" required placeholder="Confirm your password" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="submit" value="register now" class="btn" name="Submit">
+      <input type="text" name="name" required placeholder="enter your username" maxlength="20"  class="box">
+      <input type="email" name="email" required placeholder="enter your email" maxlength="50"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="password" name="pass" required placeholder="enter your password" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="password" name="cpass" required placeholder="confirm your password" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="submit" value="register now" class="btn" name="submit">
       <p>Already have an account?</p>
       <a href="user_login.php" class="option-btn">Login Now.</a>
    </form>
